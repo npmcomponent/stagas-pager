@@ -233,5 +233,7 @@ Pager.prototype.render = function(){
   // next
   if (curr < pages - 1) next.removeClass('pager-hide')
   else next.addClass('pager-hide');
+
+  return this;
 };
 
